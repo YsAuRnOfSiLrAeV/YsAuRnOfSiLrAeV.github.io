@@ -73,12 +73,20 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>Contact</h3>
+
+        <p class = "font-medium lg:text-[28px] sm:text-[23px] xs:text-[20px] text-[22px] lg:leading-[46px] text-white-100 mt-8">My phone number:</p>
+        <div className="flex flex-row items-start gap-3 w-full mt-6">
+          <p className='bg-tertiary py-4 px-2 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'>🇺🇦 +380660385660</p>
+          <p className='text-white font-medium mt-4'>WhatsApp</p>
+          <img src="src\assets\whatsapp.png" height="30px" width="30px" class="mt-4 hidden md:inline"/>
+        </div>
+        <p class = "font-medium lg:text-[28px] sm:text-[23px] xs:text-[20px] text-[22px] lg:leading-[46px] text-white-100 mt-12">Or you can mail me:</p>
 
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
+          className='mt-10 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>

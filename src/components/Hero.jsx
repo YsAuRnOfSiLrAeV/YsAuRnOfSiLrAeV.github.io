@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -22,10 +21,14 @@ const Hero = () => {
             I develop Cloud-Based,  <br className='sm:block hidden' />
             Mobile and Desktop applications
           </p>
+          <p class = "font-medium lg:text-[24px] sm:text-[20px] xs:text-[17px] text-[22px] lg:leading-[46px] text-white-100 mt-6">
+            My GitHub repository:
+          </p>
+          <p>
+            <a href="https://github.com/YsAuRnOfSiLrAeV" target="_blank" rel="noopener noreferrer" class="font-medium lg:text-[22px] sm:text-[19px] xs:text-[15px] text-[22px] lg:leading-[46px] green-pink-text-gradient mt-2"> https://github.com/YsAuRnOfSiLrAeV</a>
+          </p>
         </div>
       </div>
-
-      <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

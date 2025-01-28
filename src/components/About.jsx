@@ -40,17 +40,18 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm newcomer, but intusiastic software developer with experience in Java and C++,
+        I'm intusiastic software developer with experience in Java and C++,
         and expertise in frameworks like Spring Boot and Blynk. I'm a quick learner and 
-        collaborate closely with clients to create efficient, scalable, and user-friendly solutions 
-        that solve real-world problems. Let's work together to bring your ideas to life!
+        adapt well to new technologies, always striving to deliver efficient
+        and innovative solutions. My passion lies in creating impactful software that solves
+        real-world problems while continuously improving my skills.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -3,26 +3,17 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  AUK,
+  ASU,
+  itelit,
+  robocode,
+  udemy,
+  bintree,
+  flashcard,
+  teaching,
+  car,
+  alarm,
+  lifting,
 } from "../assets";
 
 export const navLinks = [
@@ -32,7 +23,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Courses",
+    title: "Education",
   },
   {
     id: "contact",
@@ -54,55 +45,19 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Embedded Systems Developer",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "AUK",
+    icon: AUK,
   },
   {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "ASU",
+    icon: ASU,
   },
 ];
 
@@ -110,7 +65,7 @@ const experiences = [
   {
     title: "WEB Developer",
     company_name: "IT-Elit",
-    icon: starbucks,
+    icon: itelit,
     iconBg: "#383E56",
     date: "2018 - 2020",
     points: [
@@ -122,7 +77,7 @@ const experiences = [
   {
     title: "Embedded Developer",
     company_name: "RoboCode",
-    icon: tesla,
+    icon: robocode,
     iconBg: "#E6DEDD",
     date: "2019 - 2022",
     points: [
@@ -136,7 +91,7 @@ const experiences = [
   {
     title: "Software Engineer | Java Spring Framework 6 with Spring Boot 3",
     company_name: "Udemy",
-    icon: shopify,
+    icon: udemy,
     iconBg: "#383E56",
     date: "NOW",
     points: [
@@ -148,7 +103,7 @@ const experiences = [
   {
     title: "Full Stack Java Developer | FULL STACK JAVA DEV: JAVA + JSP + SPRING + BOOT + JS + REACT",
     company_name: "Udemy",
-    icon: meta,
+    icon: udemy,
     iconBg: "#E6DEDD",
     date: "NOW",
     points: [
@@ -164,97 +119,43 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
     name: "Robotics",
     description:
-      "Radio controlled FPV car, which can move by itself, can be controled and can film the ride. Main components: Arduino UNO R3(x2), NRF24L01(x2), FPV set(mini-camera, TS832, RC832), HC-SR04 + servo.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+      "Radio controlled FPV car, which can film the ride. Main components: Arduino Nano(x2), NRF24L01(x2), FPV set(mini-camera, TS832, RC832), servo, engine and hand-made body. Look at my REPO",
+    image: car,
   },
   {
     name: "Robotics",
     description:
-      "Alarm clock that wakes up with light(prototype). Wakes up with light, wakes up with noice, shows current time. Main components: Arduino Nano, DS3231SN, LCD 1602, Bright white LED, Hand-made body.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+      "Alarm clock that wakes up with light(prototype). Wakes up with light, wakes up with noice, shows current time. Main components: Arduino Nano, DS3231SN, LCD 1602, bright white LED, hand-made body. Look at my REPO",
+    image: alarm,
   },
   {
     name: "Powerlifting",
     description:
       "Bench press - 110kg. Dead lift - 150kg. Squat - 110kg",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: lifting,
+  },
+  {
+    name: "Mathimatics",
+    description:
+      "I participated in mathimatical olympiads when I was studying at school. Posess some knowledge of: Mathematical Analysis, Number Theory, Linear Algebra, Discrete Mathematics",
+    image: bintree,
+  },
+  {
+    name: "Languages",
+    description:
+      "I know Ukrainian on C2 level, Russian on C1, English on B2. I also started learhing German and going to study Spanish",
+    image: flashcard,
+  },
+  {
+    name: "Teaching",
+    description:
+      "I pretty love training or teaching people some interesting topics, when I posess some knowledge. I am one of the 'Olympiade programming club' lecturers in my university. People say that I have educating talent, because I see what can cause questions before it causes questions.",
+    image: teaching,
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

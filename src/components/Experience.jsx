@@ -64,7 +64,7 @@ const Experience = () => {
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Courses Experience.
+          Courses Experience
         </h2>
       </motion.div>
 
